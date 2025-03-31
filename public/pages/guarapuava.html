@@ -1,4 +1,18 @@
-<div>
-    <h1>Guarapuava Page</h1>
-    <p>This is the Guarapuava page content.</p>
+<div class="row mt-4">
+    <p class="fs-5 fw-bold text-center">Empreendimento Guarapuava</p>
+    <p class="fs-6 fw-light text-center">Diversas opções de plantas. Escolha a que mais combina com você a sua empresa</p>
+    <div class="row justify-content-center pb-2">
+        
+        <div class="col-10 col-lg-4 p-3">
+            <div class="fs-6 fw-bold text-center">Planta 1</div>
+            <img class="w-100" id="img-planta-humanizada" src="/assets/images/planta_g.jpg">
+        </div>
+        <div class="col-10 col-lg-4 p-3 d-flex flex-column">
+            <div class="fs-6 fw-bold text-center">Visualização em AR</div>
+            <model-viewer id="model-viewer-moises-marx" class="w-100 h-100 border flex-1"
+                src="/assets/models/guarapuava_interiorv2.glb" ar="" ar-modes="webxr scene-viewer quick-look"
+                camera-controls="" touch-action="pan-y" environment-image="legacy" camera-orbit="135deg 55deg 150m"
+            ></model-viewer>
+        </div>
+    </div>
 </div>
